@@ -21,10 +21,9 @@ $(document).ready(function() {
 	// var html = $('.columns').html();
 	// var replicated = html.repeat(4);
 	// $('.columns').html(replicated);
-
-	$('img').each(function(i) {
-		$(this).attr('src', '/img/' + (i+1) + '.jpg');
-	});
+	// $('img').each(function(i) {
+	// 	$(this).attr('src', 'img/' + (i+1) + '.jpg');
+	// });
 
 	var area = [0,0,$('body').width(),$('body').height()]
 	$('body').imagesLoaded(function() {
